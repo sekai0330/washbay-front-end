@@ -1,0 +1,35 @@
+.home {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.carousel {
+    background-image: linear-gradient(to right, #e9e9ff,#ffffff,#ebeeff);
+}
+
+.slider-section {
+    position: relative;
+}
+
+.washbay_type .slider_bottom_img {
+    width: 100%;
+    height: auto;
+}
+
+.washbay_type .slider_bottom_img img {
+    width: 100%;
+}
+
+.washbay_type {
+    position: relative;
+    margin-top: -12%;
+    width: 100%;
+    z-index: 1000;
+}
+
+.washbay_type .washbay_detail {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to right, #91b2f5,#92b3f5,#a0bdf7, #a8c3f8, #b3cbfa, #b5ccfa, #b6cdfa, #b6cdfa, #abc5f8, #a6c1f8, #9ab9f6, #96b5f6, #91b2f5);
+}

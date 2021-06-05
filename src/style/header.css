@@ -1,0 +1,70 @@
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 35px 10%;
+    z-index: 10;
+}
+
+.header .brand {
+    display: flex;
+    height: 70px;
+    align-items: center;
+}
+
+.header .brand img{
+    width: 230px;
+    height: auto;
+}
+
+.header .menu {
+    line-height: 20px;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    background: linear-gradient(#93b3f5, #4b79d3);
+}
+
+.header .menu div {
+    min-width: 120px;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid #94b4f6;
+    border-right: 1px solid #3c6ed1;
+}
+
+.header .menu div:hover{
+    background: linear-gradient(#a9c3f9, #5e87d7);
+}
+
+.header .menu .menu-sales {
+    border-left: 0px solid #94b4f6;
+}
+
+.header .menu .menu-sales:hover {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.header .menu .menu-contact-us {
+    border-right: 0px solid #fff;
+}
+
+.header .menu .menu-contact-us:hover {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.header .menu a {
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    line-height: 40px;
+    color: #ebeeff;
+    text-decoration: none;
+}
