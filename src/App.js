@@ -15,7 +15,7 @@ import Services from './components/Services/Services.js';
 import Finance from './components/Finance/Finance.js';
 import About from './components/About/About.js';
 import Contact from './components/Contact/Contact.js';
-
+import Detail from "./components/Home/Detail.js";
 
 function App() {
   return (
@@ -48,6 +48,9 @@ function App() {
         </Route>
         <Route exact path="/contact">
           <Contact />
+        </Route>
+        <Route exact path="/detail/:id">
+          <Detail />
         </Route>
       </Switch>
       <Footer />
